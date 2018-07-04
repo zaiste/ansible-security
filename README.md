@@ -1,37 +1,29 @@
-Role Name
-=========
+# Role Name
 
-Ansible role that installs sane security defaults for Ubuntu Xenial — Edit
+Ansible role that installs sane security defaults for Ubuntu 18.04 (Bionic Beaver). 
 
-
-Requirements
-------------
+## Requirements
 
 None.
 
-Role Variables
---------------
+## Role Variables
 
 None.
 
-Dependencies
-------------
+## Dependencies
 
 - zaiste.essentials
 
-Example Playbook
-----------------
+## Example Playbook
 
     - hosts: servers
       roles:
          - { role: zaiste.security }
 
-License
--------
+## License
 
 MIT / BSD
 
-Author Information
-------------------
+## Author Information
 
-[Zaiste](http://zaiste.net) 2014 - 2016
+[Zaiste](http://zaiste.net) 2018
